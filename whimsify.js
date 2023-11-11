@@ -9,21 +9,6 @@ const max_images = 50
 
 const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
 
-function getMask (x, y) {
-	canvas = document.createElement("canvas");
-	ctx = canvas.getContext("2d");
-
-	canvas.width = x;
-	canvas.height = y;
-
-	ctx.fillStyle = "black";
-	ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-	imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-
-	return(imageData)
-}
-
 async function replace (url, prompt, attempt = 0) {
 	console.log(prompt)
 	stime = 1000 * (Math.pow(2, attempt+Math.random()))
