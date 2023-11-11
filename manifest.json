@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Whimsify",
+    "version": "0.0.1",
+    "description": "Replaces images with more fun ones",
+    "permissions": ["activeTab", "storage"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["jquery.min.js", "whimsify.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
