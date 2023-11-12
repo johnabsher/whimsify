@@ -1,8 +1,9 @@
-# nCage
-A Chrome extension which replaces all images on all pages to Nicolas Cage.
+# Whimsify
+A simple chrome extension to make the web more fun.
+### Before
+<img width="1040" alt="Normal Internet" src="https://github.com/johnabsher/whimsify/assets/28197042/1c66da9f-74e8-4aa4-bdb3-e5b591669d05">
 
-![Nicholas Cage](https://lh3.googleusercontent.com/9JhvxuStnEhLKRC-AyoSUkeMud32xXGffP29-OAifL3O_9cyOD0_OGE4nCo5bePOqZnYB1nE=w640-h400-e365)
+### After
+<img width="1040" alt="Whimsical Internet" src="https://github.com/johnabsher/whimsify/assets/28197042/2ee035fe-0946-4457-b802-fcc1e6995d18">
 
 
-## Link
-* Chrome: https://chrome.google.com/webstore/detail/ncage/hnbmfljfohghaepamnfokgggaejlmfol?hl=en
