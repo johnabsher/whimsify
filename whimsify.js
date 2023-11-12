@@ -11,7 +11,11 @@ const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
 
 async function replace (url, prompt, attempt = 0) {
 	console.log(prompt)
-	stime = 1000 * (Math.pow(2, attempt+Math.random()))
+	if (attempt > 0) {
+		stime = timeout * (attempt - 1)
+	} else {
+		stime = 250
+	}
 	await sleep(stime)
 	console.log("waited " + stime + "ms for attempt " + attempt)
 		//response = await fetch(imageUrl);
